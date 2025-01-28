@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 5%;
     width: 90%;
     display: block;
-    background-color: rgba(255,255,255,0.6);
+    background-color: rgba(255,255,255,0.8);
     padding: 10px;
     border-radius: 5px;
 }
@@ -69,11 +69,15 @@ h1, h2, h3, h4, h5, h6 {
 } 
 
 .card {
-    border: 0px solid rgba(0,0,0,.125);
+    border: 1px solid rgba(0,0,0,.125);
     /* border-radius: .25rem;*/
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: rgb(245, 164, 98);
+    background-color: rgba(182, 231, 243, 1.0);
+}
+
+.card-text {
+    font-size: 13px;
 }
 
 .logo {
@@ -82,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo h1 {
     font-family: cocaColaFont; /* You don't need to repeat this for each media query as it is propagated */
-    font-size: 29px;
+    font-size: 31px;
     margin: 0;
     margin-top: -10px;
     margin-bottom: -15px;
@@ -114,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo p {
     font-size: 7px;
-    margin-top: 23px;
+    margin-top: 22px;
     margin-bottom: 0px;
     padding-top: 0px;
     padding-left: 3px;
@@ -252,7 +256,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     #main_3d_image {
-        background-image: url(assets/images/main_3D_768.jpg);
+        background-image: url(../assets/images/main_3D_768.jpg);
         background-repeat: no-repeat;
         height: 288px;
     }
@@ -277,25 +281,25 @@ h1, h2, h3, h4, h5, h6 {
 
     /* CSS rule to style the footer */
     .footer {
-        background-color: #257600;
+        background-color: #94d874;
         height: 60px;
     }
 
     .navbar-text > a {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .navbar-text > p {
         color: rgb(228, 75, 15);
-        font-size: 18px;
+        /*font-size: 18px;*/
     }
 
     .copyright {
-        padding-top: 20px;
+        padding-top: 16px;
     }
 
     .social {
-        padding-top: 7px;
+        padding-top: 5px;
     }
 
 }
@@ -310,7 +314,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     #main_3d_image {
-        background-image: url(assets/images/main_3D_970.jpg);
+        background-image: url(../assets/images/main_3D_970.jpg);
         background-repeat: no-repeat;
         height: 363px;
     }
@@ -428,9 +432,9 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     #main_3d_image {
-        background-image: url(assets/images/main_3D_1400a.jpg);
+        background-image: url(../assets/images/main_3D_1400a.jpg);
         background-repeat: no-repeat;
-        height: 500px;
+        height: 100%;
     }
 
     #main_text {
@@ -531,4 +535,10 @@ h1, h2, h3, h4, h5, h6 {
     .social {
         padding-top: 7px;
     }
+}
+
+/* Extra large devices (large desktops, 1200px and up)
+*/
+@media (min-width: 1200px) {   
+
 }
