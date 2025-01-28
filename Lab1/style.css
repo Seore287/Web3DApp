@@ -6,12 +6,12 @@
 
 @font-face {
     font-family: OpenSans;
-    src: url(../assets/fonts/Open_Sans/OpenSans-Regular.ttf);
+    src: url(assets/fonts/Open_Sans/OpenSans-Regular.ttf);
 }
 
 @font-face {
     font-family: Oswald;
-    src: url(../assets/fonts/Oswald/static/Oswald-Regular.ttf);
+    src: url(assets/fonts/Oswald/static/Oswald-Regular.ttf);
 }
 
 /* Extra small devices (portrait phones, less than 576px)
@@ -256,7 +256,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     #main_3d_image {
-        background-image: url(../assets/images/main_3D_768.jpg);
+        background-image: url(assets/images/main_3D.jpg);
         background-repeat: no-repeat;
         height: 288px;
     }
@@ -314,7 +314,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     #main_3d_image {
-        background-image: url(../assets/images/main_3D_970.jpg);
+        background-image: url(assets/images/main_3D_970.jpg);
         background-repeat: no-repeat;
         height: 363px;
     }
@@ -432,7 +432,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     #main_3d_image {
-        background-image: url(../assets/images/main_3D_1400a.jpg);
+        background-image: url(assets/images/main_3D_1400a.jpg);
         background-repeat: no-repeat;
         height: 100%;
     }
