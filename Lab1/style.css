@@ -222,15 +222,15 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1em;
 }
 
-.fa-twitter-square:before {
+.fa-google-plus-square:before {
     content: "\f0d4";
     color: blue;
     font-size: 1em;
 }
 
-.fa-twitter-square:before {
-    content: "\f801";
-    color: green;
+.fa-facebook-square:before {
+    content: "\f082";
+    color: red;
     font-size: 1em;
 }
 
