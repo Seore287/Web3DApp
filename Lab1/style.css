@@ -4,12 +4,22 @@
     src: url(assets/fonts/lokicola.ttf);
 }
 
+@font-face {
+    font-family: OpenSans;
+    src: url(../assets/fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url(../assets/fonts/Oswald/static/Oswald-Regular.ttf);
+}
+
 /* Extra small devices (portrait phones, less than 576px)
    No media query since this is the default in Bootstrap
 */
 body {
-    padding-bottom: 5px;
-    background-color: rgb(245, 164, 98);
+    /*padding-bottom: 5px;*/
+    background-color: rgba(182, 231, 243, 1.0);
 }
 
 .main_contents {
@@ -27,9 +37,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main_3d_image {
-    background-image: url(assets/images/main_3D.jpg);
+    background-image: url(assets/images/main_3D_538.jpg);
     background-repeat: no-repeat;
-    height: 201px;
+    height: 200px;
 }
 
 #main_text {
