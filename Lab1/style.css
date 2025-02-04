@@ -7,7 +7,6 @@
    No media query since this is the default in Bootstrap
 */
 body {
-    padding-top: 30px;
     padding-bottom: 5px;
     background-color: rgba(182, 231, 243, 1.0);
 }
@@ -27,9 +26,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main_3d_image {
-    background-image: url(../Lab1/assets/images/main_3D.jpg);
+    background-image: url(assets/images/main_3D.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
     height: 200px;
 }
 
@@ -251,7 +249,7 @@ h1, h2, h3, h4, h5, h6 {
     #main_3d_image {
         background-image: url(assets/images/main_3D.jpg);
         background-repeat: no-repeat;
-        height: 288px;
+        height: 201px;
     }
 
     #main_text {
