@@ -15,9 +15,11 @@ function init(){
 
   camera.position.set(-5, 25, 20);
 
-renderer = new THREE.WebGLRenderer();
-renderer.setSize( window.innerWidth, window.innerHeight );
-document.body.appendChild( renderer.domElement );
+//Set up renderer for scene
+const canvas = document.getElementById('threeContainer');
+renderer = new THREE.WebGLRenderer({canvas: canvas});
+renderer.setPixelRatio( window.devicePixelRatio );
+resize();
 
 //Add Lighting
 const ambient = new THREE.HemisphereLight(0xffffbb, 0x080820, 1);
@@ -63,7 +65,7 @@ loader.load(assetPath + 'assets/canModel.glb', function(gltf){
 });
 
 //Resizing Screen
-window.addEventListener('resize', onResize, false);
+window.addEventListener('resize', resize, false);
 
 //Begin animation loop
 animate();
@@ -79,8 +81,12 @@ function animate() {
 renderer.render(scene, camera);
 }
 
-function onResize(){
-  camera.aspect = window.innerWidth / window.innerHeight;
+function resize(){
+  const canvas = document.getElementById('threeContainer');
+  const width = window.innerWidth;
+  const height = window.innerHeight;
+
+  camera.aspect = width / height;
   camera.updateProjectionMatrix();
-  renderer.setSize(window.innerWidth, window.innerHeight);
+  renderer.setSize(width, height);
 }
