@@ -5,24 +5,13 @@
     overflow: visible;
 }
 
-body{
-    padding: 0;
-    margin: 0;
-}
-
 #btn {
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
     background: rgb(134, 8, 245);
     padding: 15px;
     font-family: arial;
 }
 
 #toggleWireframe {
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
     background: rgb(36, 209, 209);
     padding: 15px;
     font-family: arial;
@@ -30,9 +19,6 @@ body{
 
 
 #Rotate {
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
     background: rgb(245, 221, 4);
     padding: 15px;
     font-family: arial;
@@ -40,18 +26,12 @@ body{
 
 
 #switchModel {
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
     background: rgb(5, 74, 246);
     padding: 15px;
     font-family: arial;
 }
 
 #playSecondAnimation {
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
     background: rgb(90, 236, 5);
     padding: 15px;
     font-family: arial;
